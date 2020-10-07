@@ -18,6 +18,7 @@ let renderStatement =
           , Run = prefixText "RUN"
           , User = prefixText "USER"
           , Cmd = prefixTextList "CMD"
+          , CmdShell = prefixText "CMD"
           , Exec = prefixTextList "RUN"
           , Expose = prefixText "EXPOSE"
           , Add = prefixTextList "ADD"

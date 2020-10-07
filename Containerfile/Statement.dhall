@@ -6,6 +6,7 @@ let Prelude = ../Prelude.dhall
 in    < From : Text
       | Run : Text
       | Cmd : List Text
+      | CmdShell : Text
       | Exec : List Text
       | Label : Prelude.Map.Type Text Text
       | Expose : Text
