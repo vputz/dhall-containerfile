@@ -2,6 +2,9 @@
 
 Manage your Containerfile with [Dhall][dhall-lang].
 
+This is forked from the original to add a few things that were not initially
+provided (shell cmds, and some buildkit extras) that I'm playing with
+
 Main [documentation](https://docs.softwarefactory-project.io/dhall-containerfile/)
 
 ## Usage
